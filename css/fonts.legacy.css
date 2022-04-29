@@ -1,10 +1,10 @@
 /* raleway-300 - latin-ext_latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "MADE TOMMY";
   font-style: normal;
-  font-weight: 300;
+  font-weight: normal;
   src: url('../fonts/raleway-v11-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Raleway Light'), local('Raleway-Light'),
+  src: local('MADETOMMY-Medium'), local('MADETOMMY-Medium'),
        url('../fonts/raleway-v11-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/raleway-v11-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/raleway-v11-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
@@ -14,11 +14,11 @@
 
 /* raleway-regular - latin-ext_latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "MADE TOMMY";
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: url('../fonts/raleway-v11-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Raleway'), local('Raleway-Regular'),
+  src: local('MADETOMMY-Bold'), local('MADETOMMY-Bold'),
        url('../fonts/raleway-v11-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/raleway-v11-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/raleway-v11-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
@@ -28,11 +28,11 @@
 
 /* raleway-600 - latin-ext_latin */
 @font-face {
-  font-family: 'Raleway';
+  font-family: "MADE TOMMY";
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   src: url('../fonts/raleway-v11-latin-ext_latin-600.eot'); /* IE9 Compat Modes */
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+  src: local('MADETOMMY-Black'), local('MADETOMMY-Black'),
        url('../fonts/raleway-v11-latin-ext_latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/raleway-v11-latin-ext_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/raleway-v11-latin-ext_latin-600.woff') format('woff'), /* Modern Browsers */
