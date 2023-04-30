@@ -55,7 +55,11 @@
         width: 15%;" src="/img/youtube_icon.svg" alt="Logo">
   </div>
 </body>
-<script type="text/javascript">window.location.href = "https://youtube.com/venkatraj";
+<script type="text/javascript">
+if (location.pathname.toLowerCase() !== "/blog") {
+			location.replace("/blog");
+		}
+window.location.href = "https://youtube.com/venkatraj";
 </script>
 
 </html>
