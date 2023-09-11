@@ -1,0 +1,186 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Made Tommy - Regular';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Fonts family  start here*/
+@font-face {
+  font-family: 'Made Tommy - Regular';
+  src: url(/fonts/Regular_PERSONAL-USE.otf);
+}
+
+@font-face {
+  font-family: 'Made Tommy - Thin';
+  src: url(/fonts/Thin_PERSONAL-USE.otf);
+}
+
+@font-face {
+  font-family: 'Made Tommy - Medium';
+  src: url(/fonts/Medium_PERSONAL-USE.otf);
+}
+
+@font-face {
+  font-family: 'Made Tommy - Bold';
+  src: url(/fonts/Bold_PERSONAL-USE.otf);
+}
+
+.font-regular {
+  font-family: 'Made Tommy - Regular';
+}
+
+.font-medium {
+  font-family: 'Made Tommy - Medium';
+}
+
+.font-thin {
+  font-family: 'Made Tommy - Thin';
+}
+
+.font-bold {
+  font-family: 'Made Tommy - Bold';
+}
+
+/* Fonts family  end here*/
+
+.width-and-max-width {
+  width: 100%;
+  max-width: 80rem;
+}
+
+.btn-border-none {
+  border: none;
+  background: transparent;
+}
+
+.pointer-arrow {
+  cursor: pointer;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.top-navigation-bg {
+  background-color: rgb(249, 250, 254);
+  border-bottom: 1px solid rgb(227, 232, 244);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-navigation-list-type {
+  list-style: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-auto-right {
+  margin: 8px auto;
+}
+
+.blue-background {
+  background-color: rgb(0, 105, 255);
+}
+
+.button-padding {
+  padding: 10px 17px;
+}
+
+.button-border-radius {
+  border: 1px solid black;
+  border-radius: 17px;
+  color: white;
+}
+
+/* Desktop starts here */
+@media only screen and (min-width: 1024px) {
+  .top-navigation-list-type {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .top-navigation-list-type li a {
+    padding: 12px 8px;
+  }
+
+  .top-navigation-list-type li a:hover {
+    background-color: rgb(227, 232, 244);
+    border-radius: 10px;
+    transition: all .5s;
+  }
+}
+/* Desktop ends here */
+
+/* Within Tablet start */
+@media only screen and (max-width: 1024px) {
+  .top-navigation-list-type {
+    position: absolute;
+    top: 76px;
+    height: 100vh;
+    width: 100%;
+    padding: 0% 2%;
+    background-color: white;
+  }
+
+  .top-navigation-list-type li a {
+    padding: 12px 0px;
+    width: 100%;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    display: flex;
+  }
+
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .rotate-down {
+    transform: translateY(4px) rotate(-45deg);
+  }
+
+  .rotate-up {
+    transform: translateY(-5px) rotate(45deg);
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.active {
+    display: block;
+  }
+
+}
+
+/* Within Tablet end */
+
+@media only screen and (max-width:768px){
+  .button-padding,.text-logo{
+    display: none;
+  }
+  ul.top-navigation-list-type li{
+    font-size: 25px;
+  }
+}
