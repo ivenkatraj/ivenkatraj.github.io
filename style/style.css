@@ -176,6 +176,7 @@ a {
 
 /* Within Tablet end */
 
+/* Mobile start */
 @media only screen and (max-width:768px){
   .button-padding,.text-logo{
     display: none;
@@ -183,4 +184,8 @@ a {
   ul.top-navigation-list-type li{
     font-size: 25px;
   }
+  header div {
+    padding: 0px 14px;
+  }
 }
+/* Mobile Ends */
