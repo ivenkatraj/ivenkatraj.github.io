@@ -127,6 +127,9 @@ a {
     border-radius: 10px;
     transition: all .5s;
   }
+  #menu-toggle{
+    display:none;
+  }
 }
 /* Desktop ends here */
 
