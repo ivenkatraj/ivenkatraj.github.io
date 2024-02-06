@@ -248,6 +248,10 @@ a {
     font-size: 50px;
   }
 
+  .first-container h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Mobile Ends */
