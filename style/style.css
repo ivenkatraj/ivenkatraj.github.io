@@ -110,6 +110,37 @@ a {
   color: white;
 }
 
+.hero-section {
+  margin-top: 80px;
+  background-image: url("/images/hero-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.first-container {
+  width: 50%;
+  justify-content: center;
+}
+
+.second-container {
+  width: 50%;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-container h1 {
+  font-size: 100px;
+  color: rgb(0, 240, 132);
+}
+
 /* Desktop starts here */
 @media only screen and (min-width: 1024px) {
   .top-navigation-list-type {
@@ -127,10 +158,12 @@ a {
     border-radius: 10px;
     transition: all .5s;
   }
-  #menu-toggle{
-    display:none;
+
+  #menu-toggle {
+    display: none;
   }
 }
+
 /* Desktop ends here */
 
 /* Within Tablet start */
@@ -180,15 +213,41 @@ a {
 /* Within Tablet end */
 
 /* Mobile start */
-@media only screen and (max-width:768px){
-  .button-padding,.text-logo{
+@media only screen and (max-width:768px) {
+
+  .button-padding,
+  .text-logo {
     display: none;
   }
-  ul.top-navigation-list-type li{
+
+  ul.top-navigation-list-type li {
     font-size: 25px;
   }
+
   header div {
     padding: 0px 14px;
   }
+
+  .hero-section {
+    margin-top: 74px;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .second-container {
+    margin-top: 20px;
+  }
+
+  .first-container {
+    margin-top: 60px;
+  }
+
+  .first-container h1 {
+    font-size: 50px;
+  }
+
 }
+
 /* Mobile Ends */
