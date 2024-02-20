@@ -141,6 +141,10 @@ a {
   color: rgb(0, 240, 132);
 }
 
+.first-container h2 {
+  font-size: 23px;
+}
+
 /* Desktop starts here */
 @media only screen and (min-width: 1024px) {
   .top-navigation-list-type {
