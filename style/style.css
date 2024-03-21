@@ -92,6 +92,10 @@ a {
   display: flex;
 }
 
+.justify-content{
+  justify-content: center;
+}
+
 .margin-auto-right {
   margin: 8px auto;
 }
@@ -126,6 +130,16 @@ a {
   justify-content: center;
 }
 
+.first-container-second-row{
+  width: 100%;
+  justify-content: center;
+}
+
+.second-container-second-row{
+  width: 100%;
+  justify-content: center;
+}
+
 .second-container {
   width: 50%;
   justify-content: center;
@@ -143,6 +157,27 @@ a {
 
 .first-container h2 {
   font-size: 23px;
+}
+
+.video-container {
+  display: flex;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.paragraph{
+  font-size: 20px
+}
+
+.second-row-para{
+  font-size: 45px;
 }
 
 /* Desktop starts here */
@@ -212,6 +247,12 @@ a {
     display: block;
   }
 
+  
+  .paragraph{
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+  }
+
 }
 
 /* Within Tablet end */
@@ -255,6 +296,13 @@ a {
   .first-container h2 {
     display: flex;
     justify-content: center;
+  }
+  .paragraph{
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+  }
+  .second-row-para{
+    font-size: 25px;
   }
 }
 
