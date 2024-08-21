@@ -6,8 +6,6 @@
 
 body {
   font-family: 'Made Tommy - Regular';
-  background: rgb(6,0,105);
-background: linear-gradient(142deg, rgba(6,0,105,1) 0%, rgba(3,3,3,1) 100%);
 }
 
 a {
@@ -94,7 +92,7 @@ a {
   display: flex;
 }
 
-.justify-content{
+.justify-content {
   justify-content: center;
 }
 
@@ -117,10 +115,9 @@ a {
 }
 
 .hero-section {
-  margin-top: 80px;
-  background-image: url("/images/hero-bg.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-top: 75px;
+  background: rgb(255, 233, 184);
+  background: linear-gradient(152deg, rgba(255, 233, 184, 1) 0%, rgba(198, 157, 113, 1) 65%);
 }
 
 .main-container {
@@ -132,12 +129,12 @@ a {
   justify-content: center;
 }
 
-.first-container-second-row{
+.first-container-second-row {
   width: 100%;
   justify-content: center;
 }
 
-.second-container-second-row{
+.second-container-second-row {
   width: 100%;
   justify-content: center;
 }
@@ -161,24 +158,11 @@ a {
   font-size: 23px;
 }
 
-.video-container {
-  display: flex;
-}
-
-.video-container video {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  pointer-events: none;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.paragraph{
+.paragraph {
   font-size: 20px
 }
 
-.second-row-para{
+.second-row-para {
   font-size: 45px;
 }
 
@@ -250,8 +234,8 @@ a {
     left: 0px;
   }
 
-  
-  .paragraph{
+
+  .paragraph {
     font-size: 15px;
     padding: 5px 10px 5px 10px;
   }
@@ -300,11 +284,13 @@ a {
     display: flex;
     justify-content: center;
   }
-  .paragraph{
+
+  .paragraph {
     font-size: 15px;
     padding: 5px 10px 5px 10px;
   }
-  .second-row-para{
+
+  .second-row-para {
     font-size: 25px;
   }
 }
